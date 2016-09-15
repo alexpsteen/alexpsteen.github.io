@@ -1,0 +1,69 @@
+body {
+	background-color: #6D6D6E;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+	height: 80%;
+	box-shadow: inset 0 -20px 20px -20px rgba(0,0,0,0.8);
+}
+
+.paintRoller {
+	height:900px;
+	width: 100%;
+	background-color: #6D6D6E;
+	position: absolute;
+	margin-top: 800px;
+}
+
+.mainContent {
+	color: White;
+	background-color: #6D6D6E;
+	position: absolute;
+	margin-top: 850px;
+}
+
+
+#imageHeader {
+	position:fixed;
+	z-index:-1;
+}
+
+#img_camera {
+	position: absolute;
+	width: 250px;
+	height: 166px;
+	border-radius: 8px;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+}
+
+#img_camera:hover {
+	opacity: 0.42;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o transition: opacity 0.5s ease-in-out;
+}
+
+#img_cameraText {
+	border-radius: 8px;
+	width: 250px;
+	height: 166px;
+}
+
+#dv {
+	height: 800px;
+	width: 600px;
+	background-color: White;
+	opacity: 0.5;
+}
+
+.photo {
+	postion: relative;
+}
