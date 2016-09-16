@@ -1,0 +1,44 @@
+.projectBox {
+	background-color: #DBD8D6;
+	width: 70%;
+	height: 600px;
+	margin: auto;
+	margin-top: 100px;
+	border-color: #000000;
+	/*border-top: 42px solid;*/
+	border-radius: 18px;
+	position: relative;
+}
+
+
+
+
+#img_camera {
+	position: absolute;
+	width: 250px;
+	height: 166px;
+	border-radius: 8px;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+}
+
+#img_camera:hover {
+	opacity: 0.42;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o transition: opacity 0.5s ease-in-out;
+}
+
+#img_cameraText {
+	border-radius: 8px;
+	width: 250px;
+	height: 166px;
+}
+
+.photo {
+	postion: relative;
+}
