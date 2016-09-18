@@ -26,7 +26,24 @@ nav {
 	left: 1.5%;
 	padding-left: 15px;
 	padding-right: 20px;
-	padding-top: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFFFFF;
+	position: fixed;
+}
+
+.signatureBLK {
+	height: 30px;
+	width: 87px;
+	display: inline-block;
+	z-index: 6;
+	top: 0.5%;
+	left: 1.5%;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-top: 4px;
 	padding-bottom: 4px;
 	border-style: solid;
 	border-width: 1px;
@@ -50,6 +67,7 @@ nav {
 .mbar_li {
 	/*WHEN MAKING THE BORDER FOR THE BUTTONS: take 1 px off each padding*/
 	display: inline-block;
+	color: #FFFFFF;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 4px;
@@ -61,3 +79,6 @@ nav {
 	border: solid 1px transparent;
 }
 
+.mbar_li a {
+
+}
