@@ -1,27 +1,28 @@
-
-
-/**$(document).ready( function() {
-	
-
-	$("li).hover(function() {
-		$(this).fadeTo('slow', 1);
-	}, function() {
-		$(this).fadeTo('slow', 0.65);
-	}
-	);
-
-
-	$("#dv").hover(function() {
-		$(this).css('border', '3px solid red');
-	}, function() {
-		$(this).css('border', '0px solid white');
-	}
-	);
-});
-**/
-
 $(document).ready(function() {
-    $('#dv').mouseenter(function() {
-        $('#dv').fadeTo("fast", 1);
-    });
+
+	$(".mbar_li").hover(function() {
+			$(this).animate({
+				borderColor: '#FFFFFF'
+				},{duration: 400, queue: false}
+				, function() {
+			});
+			$(this).animate({
+				opacity: '1'
+				},{duration: 400, queue: false}
+				, function() {
+			});
+		}, function() {
+			$(this).animate({
+				borderColor: 'transparent'
+				},{duration: 400, queue: false}
+				, function() {
+			});
+			$(this).animate({
+				opacity: '0.6'
+				},{duration: 400, queue: false}
+				, function() {
+			});
+		}
+	);
+	
 });

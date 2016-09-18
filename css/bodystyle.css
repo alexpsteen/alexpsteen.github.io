@@ -56,8 +56,17 @@ h4 {
 #socialMediaBox {
 	align: center;
 	height: 60px;
-	width: 300px;
+	width: 340px;
 	/*display: flex;*/
 	background-color: #444444;
-	border-radius: 8px
+	border-radius: 8px;
+	margin: auto;
+	color: #444444;
+}
+
+.mediaIcons {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	margin-left: 2px;
 }
