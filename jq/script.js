@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	$(".mbar_li").hover(function() {
 			$(this).animate({
 				borderColor: '#FFFFFF'
@@ -50,10 +49,5 @@ $(document).ready(function() {
 			});
 		}
 	);
-
-	// $(".mediaIcons").hover(
-	// 	function(){$(this).animate({width: 54px, height: 54px}, 500);},
-	// 	function(){$(this).animate({width: 50px, height: 50px}, 500);}
-	// );
 	
 });
