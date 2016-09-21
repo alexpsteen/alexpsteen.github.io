@@ -1,47 +1,5 @@
-.projectBox {
-	background-color: #DBD8D6;
-	width: 70%;
-	height: 600px;
-	margin: auto;
-	margin-top: 10px;
-	border-color: #000000;
-	/*border-top: 42px solid;*/
-	border-radius: 18px;
-	position: relative;
-}
-
-#img_camera {
-	position: absolute;
-	width: 250px;
-	height: 166px;
-	border-radius: 8px;
-	opacity: 1;
-	transition: opacity 0.5s ease-in-out;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-}
-
-#img_camera:hover {
-	opacity: 0.42;
-	transition: opacity 0.5s ease-in-out;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-o transition: opacity 0.5s ease-in-out;
-}
-
-#img_cameraText {
-	border-radius: 8px;
-	width: 250px;
-	height: 166px;
-}
-
-.photo {
-	postion: relative;
-}
-
 body {
-	background-color: #646464;
+	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 }
@@ -105,12 +63,20 @@ h6 {
 	padding: 0;
 }
 
+p {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
 .mainContent {
 	z-index: 2;
 	margin:0;
 	padding: 0;
 }
-
 
 /*.scrollArrow {
 	margin-top: 140px;
@@ -142,9 +108,9 @@ h6 {
 }
 
 .paintRoller {
-	height: 1700px;
+	height: 500px;
 	width: 100%;
-	background-color: #646464;
+	background-color: #FFFFFF;
 	position: absolute;
 	margin: 0;
 	padding: 0;
