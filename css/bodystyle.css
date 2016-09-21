@@ -14,7 +14,10 @@ h1 {
 	margin: 0;
 	padding: 0;
 	padding-top: 350px;
+<<<<<<< HEAD
 	cursor: default;
+=======
+>>>>>>> origin/master
 }
 
 h2 {
@@ -99,6 +102,7 @@ h6 {
 	border-top-right-radius: 100px;
 	margin: auto;
 	padding: 0;
+<<<<<<< HEAD
 	cursor: pointer;
 	text-align: center;
 	color: White;
@@ -107,6 +111,20 @@ h6 {
 
 #tabText {
 	padding-top: 12px;
+=======
+	text-align: center;
+}
+
+#thisEndUp {
+	color: White;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+.scrollTab:before {
+	content: ' ';
+	border-radius: 80px 20px 80px 20px;
+>>>>>>> origin/master
 }
 
 .paintRoller {
