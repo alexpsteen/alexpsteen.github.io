@@ -65,7 +65,6 @@ nav {
 }
 
 .mbar_li {
-	/*WHEN MAKING THE BORDER FOR THE BUTTONS: take 1 px off each padding*/
 	display: inline-block;
 	color: #FFFFFF;
 	padding-left: 20px;
@@ -77,6 +76,7 @@ nav {
 	top: 0;
 	right: 0;
 	border: solid 1px transparent;
+	cursor: pointer;
 }
 
 .mbar_li a {

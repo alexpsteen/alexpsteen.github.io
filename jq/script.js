@@ -56,4 +56,10 @@ $(document).ready(function() {
 	// 	function(){$(this).animate({width: 50px, height: 50px}, 500);}
 	// );
 	
+	$('.scrollTab').click( function() {
+		$('html, body').animate({
+			scrollTop: $(".paintRoller").offset().top
+		}, 1000);
+	});
+	
 });
