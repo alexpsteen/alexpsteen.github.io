@@ -1,7 +1,21 @@
+html {
+	background-color: white;
+}
+
 body {
-	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
+	opacity: 1;
+	transition: 2s opacity;
+	-webkit-transition: 2s opacity;
+	-moz-transition: 2s opacity;
+	-o transition: 2s opacity;
+}
+
+body.fadeout {
+	background-color: #FFFFFF;
+	opacity: 0;
+	transition: none;
 }
 
 h1 {
@@ -13,6 +27,7 @@ h1 {
 	padding: 0;
 	padding-top: 350px;
 	cursor: default;
+	color: #FFFFFF;
 }
 
 h2 {
@@ -40,6 +55,7 @@ h4 {
 	font-weight: 100;
 	margin: 0;
 	padding: 0;
+	color: White;
 }
 
 h5 {
@@ -65,10 +81,12 @@ h6 {
 
 p {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	text-align: center;
-	font-size: 15px;
+	text-align: left;
+	font-size: 18px;
 	font-weight: 100;
 	margin: 0;
+	margin-left: 14%;
+	margin-right: 14%;
 	padding: 0;
 }
 
@@ -87,7 +105,7 @@ p {
 }*/
 
 .scrollTab {
-	border-bottom: 60px solid black;
+	border-bottom: 60px solid White;
 	border-left: 55px solid transparent;
 	border-right: 55px solid transparent;
 	height: 0;
@@ -103,12 +121,16 @@ p {
 }
 
 #tabText {
+	padding: 0px;
+	margin: 0;
 	padding-top: 12px;
 	text-align: center;
+	color: Black;
+	font-size: 15px;
 }
 
 .paintRoller {
-	height: 500px;
+	overflow: hidden;
 	width: 100%;
 	background-color: #FFFFFF;
 	position: absolute;
