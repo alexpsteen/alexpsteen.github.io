@@ -55,6 +55,7 @@ h1 {
 	padding: 0;
 	padding-top: 350px;
 	cursor: default;
+	color: #8C8C8C;
 }
 
 h2 {
@@ -144,7 +145,7 @@ h6 {
 .paintRoller {
 	height: 1700px;
 	width: 100%;
-	background-color: #5CFFB2;
+	background-color: #48C78B;
 	position: absolute;
 	margin: 0;
 	padding: 0;

@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$('body').removeClass('fadeout');
+
 
 	$(".mbar_li").hover(function() {
 			$(this).animate({

@@ -8,12 +8,13 @@ nav {
 }
 
 #mbar_bar {
-	height: 50px;
+	height: 54px;
 	width: 100%;
 	background-color: #000000;;
 	opacity: 0.75;
 	z-index: 5;
 	position: fixed;
+	padding-bottom: 2px;
 }
 
 .signature {
@@ -74,7 +75,7 @@ nav {
 	z-index:6;
 	top: 0;
 	right: 0;
-	border: solid 1px transparent;
+	border: solid 2px transparent;
 	cursor: pointer;
 }
 
