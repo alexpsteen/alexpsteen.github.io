@@ -7,9 +7,12 @@ body {
 	padding: 0;
 	opacity: 1;
 	transition: 2s opacity;
+<<<<<<< HEAD
 	-webkit-transition: 2s opacity;
 	-moz-transition: 2s opacity;
 	-o transition: 2s opacity;
+=======
+>>>>>>> origin/master
 }
 
 body.fadeout {
