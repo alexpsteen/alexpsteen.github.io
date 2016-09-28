@@ -119,7 +119,7 @@ p {
 }*/
 
 .scrollTab {
-	border-bottom: 60px solid #66A2FF;
+	border-bottom: 60px solid #FFFFFF;
 	border-left: 55px solid transparent;
 	border-right: 55px solid transparent;
 	height: 0;
@@ -137,13 +137,14 @@ p {
 #tabText {
 	padding-top: 12px;
 	text-align: center;
+	color: black;
 }
 
 .paintRoller {
 	/*height: 800px;*/
 	overflow: hidden;
 	width: 100%;
-	background-color: #66A2FF;
+	background-color: #FFFFFF;
 	position: absolute;
 	margin: 0;
 	padding: 0;
