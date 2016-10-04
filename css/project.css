@@ -1,4 +1,4 @@
-.projectBox {
+.projectCase {
 	background-color: #D2D2D2;
 	width: 70%;
 	height: 600px;
@@ -10,12 +10,37 @@
 	position: relative;
 }
 
-.projectContainer {
-	height: 30px;
-	width: 100px;
-	background-color: grey;
-	margin: 20px;
+.projectBox {
+	height: 150px;
+	width: 250px;
+	margin: 18px;
+	margin-top: 40px;
+	margin-bottom: 0px;
 	float: left;
+	border-radius: 10px;
+	position: relative;
+}
+#boxImg {
+	height: 100%;
+	width: 100%;
+	float: left;
+	position: absolute;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#textBox{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	background-color: Black;
+	float: left;
+}
+
+#boxTxt {
+	color: White;
+	text-align: center;
+	margin-top: 25%;
 }
 
 #img_camera {

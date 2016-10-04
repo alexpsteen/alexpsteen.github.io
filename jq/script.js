@@ -63,5 +63,16 @@ $(document).ready(function() {
 			scrollTop: $(".paintRoller").offset().top
 		}, 1000);
 	});
+
+	$("#boxImg").hover(function() {
+			$("#boxImg").animate({
+				opacity: 0.4
+			});
+		}, function() {
+			$("#boxImg").animate({
+				opacity: 1
+			});
+		}
+	);
 	
 });
