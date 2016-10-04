@@ -10,6 +10,14 @@
 	position: relative;
 }
 
+.projectContainer {
+	height: 30px;
+	width: 100px;
+	background-color: grey;
+	margin: 20px;
+	float: left;
+}
+
 #img_camera {
 	position: absolute;
 	width: 250px;
