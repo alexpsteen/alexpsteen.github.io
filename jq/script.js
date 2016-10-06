@@ -64,12 +64,12 @@ $(document).ready(function() {
 		}, 1000);
 	});
 
-	$("#boxImg").hover(function() {
-			$("#boxImg").animate({
+	$('.boxImg').hover(function() {
+			$(this).animate({
 				opacity: 0.4
 			});
 		}, function() {
-			$("#boxImg").animate({
+			$(this).animate({
 				opacity: 1
 			});
 		}

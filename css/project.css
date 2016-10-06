@@ -4,6 +4,7 @@
 	height: 600px;
 	margin: auto;
 	margin-top: 10px;
+	margin-bottom: 200px;
 	border-color: #000000;
 	/*border-top: 42px solid;*/
 	border-radius: 18px;
@@ -20,7 +21,8 @@
 	border-radius: 10px;
 	position: relative;
 }
-#boxImg {
+
+.boxImg {
 	height: 100%;
 	width: 100%;
 	float: left;
@@ -181,7 +183,7 @@ h6 {
 }
 
 .paintRoller {
-	height: 1700px;
+	overflow: hidden;
 	width: 100%;
 	background-color: #FFFFFF;
 	position: absolute;
