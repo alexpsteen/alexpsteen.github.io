@@ -9,6 +9,7 @@
 	/*border-top: 42px solid;*/
 	border-radius: 18px;
 	position: relative;
+	overflow: hidden;
 }
 
 .projectBox {
@@ -43,36 +44,6 @@
 	color: White;
 	text-align: center;
 	margin-top: 25%;
-}
-
-#img_camera {
-	position: absolute;
-	width: 250px;
-	height: 166px;
-	border-radius: 8px;
-	opacity: 1;
-	transition: opacity 0.5s ease-in-out;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-}
-
-#img_camera:hover {
-	opacity: 0.42;
-	transition: opacity 0.5s ease-in-out;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-o transition: opacity 0.5s ease-in-out;
-}
-
-#img_cameraText {
-	border-radius: 8px;
-	width: 250px;
-	height: 166px;
-}
-
-.photo {
-	postion: relative;
 }
 
 body {
@@ -203,7 +174,7 @@ h6 {
 	-moz-user-select: none;
 }
 
-.modal {
+.popUp {
 	display: none;
 	position: fixed;
 	z-index: 10;
@@ -213,7 +184,7 @@ h6 {
 	height: 100%;
 }
 
-.popUp {
+.popUpContent {
 	position: relative;
 	background-color: #2E85F2;
 	width: 75%;
@@ -244,4 +215,14 @@ h6 {
 .exit:hover {
 	color: #000;
 	cursor: pointer;
+}
+
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top: 0px; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top: 0px; opacity:1}
 }
