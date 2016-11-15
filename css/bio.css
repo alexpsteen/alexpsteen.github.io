@@ -80,7 +80,7 @@ p {
 .contentBox {
 	/*height: 800px;*/
 	overflow: hidden;
-	width: 60%;
+	width: 65%;
 	margin-left: 20%;
 	display: inline-block;
 	line-height: 150%;
@@ -102,6 +102,8 @@ p {
 #biopic {
 	height: 250px;
 	border-radius: 50%;
+	margin-right: 25px;
+	margin-top: 10px;
 }
 
 .mainContent {
